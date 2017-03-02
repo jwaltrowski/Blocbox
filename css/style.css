@@ -26,7 +26,7 @@ p {
 	padding-left: 15px;
 	padding-right: 15px;
 	position: relative;
-}
+}ß
 .container:before,
 .container:after {
 	content: " ";
@@ -70,6 +70,8 @@ p {
 	.one-fourth {
 		width:21%;
 	}
+     .testimonials .alternate {
+      margin-top:20px;
 }
 @media (min-width: 1200px) {
 	.container {
@@ -85,6 +87,7 @@ header {
 background: #282F6E;
 background: url("../images/site-screenshot-png.png") top center no-repeat, linear-gradient(206deg, #898eb5 0%, #282f6e 94%);
 background-size:cover;
+height: 1000px;
 }
 header nav {
 	padding:1em 0;
