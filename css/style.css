@@ -26,7 +26,7 @@ p {
 	padding-left: 15px;
 	padding-right: 15px;
 	position: relative;
-}ß
+}
 .container:before,
 .container:after {
 	content: " ";
@@ -41,42 +41,6 @@ p {
 	position:relative;
 	min-height: 1px;
 	margin:0 2% 20px;
-}
-@media (min-width: 320px) {
-	.container {
-		width: 312px;
-	}
-}
-@media (min-width: 480px) {
-	.container {
-		width: 468px;
-	}
-}
-@media (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
-}
-@media (min-width: 992px) {
-	.container {
-		width: 970px;
-	}
-	.one-half {
-		width:46%;
-	}
-	.one-third {
-		width:29.33333%;
-	}
-	.one-fourth {
-		width:21%;
-	}
-     .testimonials .alternate {
-      margin-top:20px;
-}
-@media (min-width: 1200px) {
-	.container {
-		width: 1170px;
-	}
 }
 
 /* HEADER */
@@ -369,5 +333,94 @@ header .hero img {
      padding: 3em 0 3em 1em;
    }
  }
+  @media (min-width: 992px){
+   footer{
+     background-color: #3498DB;
+     background-image: linear-gradient(to left,
+        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #3498DB;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
+ }
+
+/* Media Queries */
+
+@media only screen
+	and (min-width: 768px){
+	.container {
+		width: 750px;
+	}
+	.one-half{
+		width: 46%;
+	}
+	.one-third{
+		width: 28%;
+	}
+	.one-fourth{
+		width: 30%;
+	}
+}
+@media only screen
+	and (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+	.one-half{
+		width:46%;
+	}
+	.one-third {
+		width:29.33333%;
+	}
+	.one-fourth{
+		width:21%;
+	}
+	.testimonials .alternate {
+      margin-top:20px;
+}
+@media only screen
+	and (min-width: 1200px) {
+	.container{
+		width: 1170px;
+	}
+}
+
+@media only screen
+	and (max-width: 320px) {
+  	.container{
+  		width: 320px;
+  	}
+  	header .hero h1 {
+   	    font-size:40px;
+    }
+ 	header .hero p {
+  	    font-size: 14px;
+    }
+  	header .hero h1 {
+   		font-size:38px;
+
+ 	}
+ 	header .hero p {
+   		font-size: 12px;
+ 	}
+ 	.btn{
+ 		padding: 10px 10px;
+ 	}
+ 	header nav ul > li{
+ 		margin: 7px 15px;
+ 	}
+ 	header nav ul > li.btn-outline{
+ 		padding: 5px 15px;
+ 	}
+}
+
 
 
