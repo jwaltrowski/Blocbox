@@ -503,6 +503,9 @@ header .hero img {
    margin-right:10px;
    margin-top:8px;
  }
+ .active {
+   background-color: #62bdeb;
+	}
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
