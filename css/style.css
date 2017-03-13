@@ -294,7 +294,7 @@ header .hero img {
    z-index: 0;
  }
  footer p, footer nav ul {
-   font-size:14px;
+   font-size:12px;
    font-weight:100;
    text-align: center;
    margin: 10px auto 0;
@@ -320,7 +320,7 @@ header .hero img {
      background-color: #282f6e;
      background-image: linear-gradient(to left,
         #282f6e 0%, #282f6e 33.33337%, #898eb5 33.33337%, #898eb5 100%);
-     height: 100px;
+     height: 80px;
    }
    footer p, footer nav ul{
      padding: 2em 0;
@@ -338,7 +338,7 @@ header .hero img {
      background-color: #282f6e;
      background-image: linear-gradient(to left,
         #282f6e 0%, #282f6e 33.33337%, #898eb5 33.33337%, #898eb5 100%);
-     height: 100px;
+     height: 80px;
    }
    footer p, footer nav ul{
      padding: 2em 0;
