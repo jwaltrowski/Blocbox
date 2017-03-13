@@ -458,7 +458,7 @@ header .hero img {
    position:absolute;
    z-index: 1000;
    background:#282f6e;
-   color:#fff;
+   color:#000000;
    text-decoration: none;
    font-size: 22px;
    padding: 10px 15px;
