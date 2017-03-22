@@ -345,7 +345,7 @@ header .hero img {
      text-align: left;
    }
    footer .right-footer-block {
-     background-color: ##282f6e;
+     background-color: #282f6e;
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
@@ -385,6 +385,7 @@ header .hero img {
 	}
 	.testimonials .alternate {
       margin-top:20px;
+}
 }
 @media only screen
 	and (min-width: 1200px) {
@@ -454,7 +455,7 @@ header .hero img {
      -moz-transform: translate(0,0); /** Firefox **/
      z-index: 100;
  }
-}
+
  .hamburger {
    position:absolute;
    z-index: 1000;
@@ -467,7 +468,7 @@ header .hero img {
    left: 5px;
    top: 15px;
  }
- }
+ 
  .left-nav .site-logo {
    padding:20px 0;
    background:#282f6e;
